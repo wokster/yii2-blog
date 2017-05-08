@@ -1,0 +1,21 @@
+{
+    "name": "wokster/yii2-blog",
+    "description": "Blog module for yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","blog"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maksym Tymofeiev",
+            "email": "wokster@list.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "wokster\\blog\\": ""
+        }
+    }
+}
