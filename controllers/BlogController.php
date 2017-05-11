@@ -133,7 +133,7 @@ class BlogController extends Controller
             ImageManager::updateAllCounters(['sort' => $counter], [
                'and',['class'=>'blog','item_id'=>$id],$param
                ]);
-            ImageManager::updateAll(['sort' => $counter], [
+            ImageManager::updateAll(['sort' => $post['newIndex']], [
                 'id' => $post['stack'][$post['newIndex']]['key']
             ]);
             return true;
