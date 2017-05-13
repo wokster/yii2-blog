@@ -10,6 +10,8 @@ use yii\db\Expression;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Url;
 use yii\web\UploadedFile;
+use common\models\User;
+use common\models\ImageManager;
 
 /**
  * This is the model class for table "blog".
